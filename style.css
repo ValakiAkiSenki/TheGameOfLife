@@ -1,0 +1,54 @@
+body {
+    padding: 20px;
+    background-color: #444;
+}
+
+#gridContainer {
+    display: grid;
+    background-color: rgb(40, 40, 40);
+    border-spacing: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.item {
+    background-color: rgb(40, 40, 40);
+    border-spacing: 0;
+    border: 1px solid #F1F5DA;
+    border-radius: 2px;
+}
+
+span {
+    color: #222;
+}
+
+#start,
+#clear,
+#random,
+#decreaseX,
+#increaseX,
+#decreaseY,
+#increaseY {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;    
+    background: linear-gradient(
+        to bottom right,
+        #C5DEC6, #587559);
+}
+
+.canvasControls {
+    padding-top: 10px;
+}
+
+.dead {
+    background-color: transparent;
+}
+
+.live {
+    background-color: #ffffff;
+}
